@@ -47,7 +47,7 @@ function ejecutarLogin() {
     
     // OPCIÓN A: Si el botón ya tiene un evento programado, simulamos su clic:
     botonLogin.click();
-    window.location.href = "webapps/login2.html";
+    window.location.reload();
     
     // OPCIÓN B: Si quieres que muestre el error directamente aquí:
     // mensajeError.style.display = 'block';
